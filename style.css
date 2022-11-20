@@ -1,0 +1,52 @@
+body {
+    margin-top: 100px;
+    background-color: #c3b091;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+h1 {
+    margin: 15px 0;
+    color: #c3b091;
+}
+
+.soundboard {
+    background-color: #202A44;
+    border-radius: 15px;;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.2) 0 2px 20px;
+    border: 1px solid #aaa;
+}
+
+.sounds {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.sounds li {
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.sounds li button:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.sounds li button:active {
+    opacity: 0.2;
+    transition: opacity ease-in-out 0.2s;
+}
+
+button {
+    background: none;
+    border: none;
+    margin: 0 auto;
+    width: 50px;
+    height: 25px;
+    background-image: url("Button.png");
+}
